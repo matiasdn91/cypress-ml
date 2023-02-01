@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Pruebas automatizadas del sitio Mercado Libre.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "qa",
+    "automation",
+    "cypress"
+  ],
+  "author": "Matias Damian Nazadek",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.5.0"
+  }
+}
