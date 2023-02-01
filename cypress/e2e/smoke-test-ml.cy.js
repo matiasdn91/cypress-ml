@@ -13,7 +13,7 @@ describe('Smoke Test - Mercado Libre', function () {
         cy.contains('iPhone');
     });
 
-    it('Validar elegir categoría', () => {
+    it('Validar elegir una categoría', () => {
         cy.get('#nav-search-input').type('iPhone');
         cy.get('.nav-icon-search').click();
         cy.get(':nth-child(4) > ul > :nth-child(5) > .ui-search-link > .ui-search-filter-name').click();
